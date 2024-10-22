@@ -1,0 +1,10 @@
+[run]
+omit =
+    some_model.py
+    test_*
+[report]
+exclude_also =
+    if __name__ == .__main__.:
+fail_under = 90
+precision = 2
+show_missing = true
